@@ -1,72 +1,65 @@
-🧩 Projeto 03 – Post de Saúde e Bem-Estar com Flexbox
+📘 Projeto 03 (Trilha Simplificada) — Componente de Post com Flexbox
 
-Este projeto apresenta a construção de um componente de post utilizando HTML5 e CSS3, com foco no aprendizado e aplicação prática do Flexbox, um dos conceitos mais importantes para criação de layouts modernos.
+Este projeto apresenta o conceito fundamental de layout moderno em CSS: o Flexbox.
+Aqui, construímos um componente que simula a chamada de um post de blog sobre saúde e bem-estar, combinando imagem e texto lado a lado.
 
-O componente simula uma chamada para um post de blog de saúde e bem-estar, exibindo uma imagem ao lado de um bloco de texto, organizado de forma equilibrada, limpa e responsiva.
+🚀 Sobre o Projeto
 
-🚀 Objetivo do Projeto
+O componente possui dois elementos principais:
 
-O objetivo principal é dominar os fundamentos do Flexbox, entendendo como organizar elementos horizontalmente, controlar espaçamentos e criar um layout simples e elegante.
-Além disso, o projeto reforça como estruturar componentes reutilizáveis — algo essencial no desenvolvimento web moderno.
+Uma imagem posicionada à esquerda
 
-🛠️ Tecnologias e Conceitos Utilizados
-🔹 HTML5
+Um bloco de texto à direita, contendo título e pequena descrição
 
-Estruturação de um componente com container e itens internos.
+O objetivo é aprender a organizar elementos horizontalmente com Flexbox, controlar espaçamento e garantir um layout limpo e responsivo.
 
-Uso de tags semânticas para organizar conteúdo.
+🛠️ Tecnologias e Conceitos Abordados
+HTML5
 
-🔹 CSS3 — Flexbox
+Estruturação de um container com dois elementos filhos
 
-Aplicação de display: flex para criar um layout horizontal.
+Uso da <img> com alt para acessibilidade
 
-Uso de align-items: center para alinhamento vertical perfeito.
+Bloco de texto organizado com título e parágrafo
 
-Espaçamento entre elementos com gap.
+CSS3 — Flexbox
 
-Aplicação de bordas arredondadas e estilização geral do componente.
+Criação de um Flex Container com display: flex
 
-🔹 Tratamento de Imagens
+Alinhamento vertical com align-items: center
 
-object-fit: cover para manter proporções sem distorcer a imagem.
+Espaçamento entre itens com gap
 
-Ajuste de tamanho e bordas para estética moderna.
+Controle do tamanho e comportamento da imagem usando object-fit: cover
 
-📸 Tema: Post de Saúde e Bem-Estar
+🎯 Objetivo de Aprendizado
 
-O conteúdo simula um pequeno post informativo relacionado ao universo de saúde, qualidade de vida e bem-estar, trazendo:
+Entender como o Flexbox organiza os elementos na horizontal
 
-Imagem temática
+Criar um layout limpo e fácil de reutilizar
 
-Título curto e direto
+Manter boas práticas de acessibilidade e design
 
-Descrição de chamada para o post completo
+Combinar imagem + texto de forma equilibrada
 
-Esse tipo de componente pode ser aplicado em blogs, portais informativos, landing pages e redes sociais.
+📸 Tema do Componente
 
-💻 Como Executar o Projeto
+O conteúdo simula um post de saúde e bem-estar, trazendo:
 
-Faça o download ou clone os arquivos.
+Uma imagem representativa
 
-Coloque uma imagem dentro da pasta assets/.
+Um título simples e chamativo
 
-Atualize o atributo src da tag <img> com o nome da sua imagem.
+Um resumo curto sobre o tema
 
-Abra o arquivo index.html diretamente no navegador.
+💻 Como Executar
 
-📁 Estrutura de Arquivos
-📦 projeto-03
- ┣ 📂 assets
- ┃ ┗ 📄 sua-imagem.jpg
- ┣ 📄 index.html
- ┗ 📄 style.css
+Coloque uma imagem na pasta assets/
 
-📝 Meta Descrição Sugerida (SEO)
+Atualize o caminho da imagem no atributo src dentro do HTML
 
-“Componente de post sobre saúde e bem-estar criado com Flexbox, utilizando HTML e CSS para alinhar imagem e texto de forma simples, moderna e responsiva.”
+Abra o arquivo index.html no navegador
 
-Se quiser, posso gerar também:
-✅ prévia visual
-✅ versão mais curta ou mais longa
-✅ meta tags completas (SEO + OG + Twitter)
-✅ código HTML/CSS completo do projeto
+📝 Meta Descrição Sugerida
+
+"Componente de post sobre saúde e bem-estar criado com HTML e Flexbox, apresentando layout responsivo com imagem e texto lado a lado."
