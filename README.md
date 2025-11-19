@@ -1,65 +1,61 @@
-📘 Projeto 03 (Trilha Simplificada) — Componente de Post com Flexbox
+# Projeto 03 (Trilha Simplificada) – Componente de Post com Flexbox
 
-Este projeto apresenta o conceito fundamental de layout moderno em CSS: o Flexbox.
-Aqui, construímos um componente que simula a chamada de um post de blog sobre saúde e bem-estar, combinando imagem e texto lado a lado.
+## 📌 Sobre o Projeto
 
-🚀 Sobre o Projeto
+Este projeto aprofunda os fundamentos de front-end, introduzindo o uso do **Flexbox**, uma das técnicas mais importantes para criação de layouts modernos.
+Aqui, construímos um componente que simula a chamada para um **post de saúde e bem-estar**, composto por uma imagem à esquerda e um bloco de texto à direita.
 
-O componente possui dois elementos principais:
+O objetivo principal é aprender a alinhar elementos horizontalmente, controlar espaçamentos e dominar propriedades essenciais do Flexbox.
 
-Uma imagem posicionada à esquerda
+---
 
-Um bloco de texto à direita, contendo título e pequena descrição
+## 🛠️ Tecnologias e Conceitos Abordados
 
-O objetivo é aprender a organizar elementos horizontalmente com Flexbox, controlar espaçamento e garantir um layout limpo e responsivo.
+### **HTML5**
 
-🛠️ Tecnologias e Conceitos Abordados
-HTML5
+* Estruturação simples para um layout com imagem e texto.
+* Uso da tag `<img>` com `src` e `alt`, reforçando boas práticas de acessibilidade.
 
-Estruturação de um container com dois elementos filhos
+### **CSS3 – Flexbox**
 
-Uso da <img> com alt para acessibilidade
+* `display: flex` para criar um contêiner flexível.
+* `align-items: center` para alinhar elementos verticalmente.
+* `gap` para criar espaçamento entre itens.
+* `object-fit: cover` para garantir que a imagem se ajuste ao espaço sem distorções.
+* Controle de largura dos elementos para criar um layout limpo.
 
-Bloco de texto organizado com título e parágrafo
+---
 
-CSS3 — Flexbox
+## 📂 Estrutura de Arquivos Sugerida
 
-Criação de um Flex Container com display: flex
+```
+projeto-03-post-flexbox/
+├── assets/
+│   └── imagem-post.jpg
+├── index.html
+└── style.css
+```
 
-Alinhamento vertical com align-items: center
+---
 
-Espaçamento entre itens com gap
+## 🎯 Objetivo Principal
 
-Controle do tamanho e comportamento da imagem usando object-fit: cover
+Compreender como:
 
-🎯 Objetivo de Aprendizado
+* Funciona o alinhamento horizontal com Flexbox.
+* Criar componentes reutilizáveis para layouts modernos.
+* Ajustar imagens dentro de um contêiner sem deformá-las.
+* Trabalhar com espaçamentos, alinhamento e responsividade inicial.
 
-Entender como o Flexbox organiza os elementos na horizontal
+---
 
-Criar um layout limpo e fácil de reutilizar
+## 🧪 Resultado Esperado
 
-Manter boas práticas de acessibilidade e design
+Um componente contendo:
 
-Combinar imagem + texto de forma equilibrada
+* Uma imagem alinhada à esquerda.
+* Um título chamativo.
+* Um resumo curto sobre o tema saúde e bem-estar.
+* Layout bem organizado usando Flexbox.
 
-📸 Tema do Componente
-
-O conteúdo simula um post de saúde e bem-estar, trazendo:
-
-Uma imagem representativa
-
-Um título simples e chamativo
-
-Um resumo curto sobre o tema
-
-💻 Como Executar
-
-Coloque uma imagem na pasta assets/
-
-Atualize o caminho da imagem no atributo src dentro do HTML
-
-Abra o arquivo index.html no navegador
-
-📝 Meta Descrição Sugerida
-
-"Componente de post sobre saúde e bem-estar criado com HTML e Flexbox, apresentando layout responsivo com imagem e texto lado a lado."
+Se quiser, posso também gerar a **versão com badges**, **versão minimalista** ou **versão para portfolio**!
